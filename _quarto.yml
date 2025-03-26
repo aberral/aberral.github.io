@@ -1,19 +1,56 @@
 project:
   type: website
-
+  render:
+    - index.qmd
+    - publications/publications.qmd
+    - posts/post.qmd
+    - galleries/index.qmd
+    
 website:
-  title: "portfolio"
+  title: "ABerral"
+  favicon: "images/favicon.png"
+  page-footer:
+    center: |
+      [Contact Me](mailto:aberralgonzalez@gmail.com)
+    left: |
+      Made with [Quarto](https://quarto.org/)
+    right: |
+      [Github Code Repo](https://github.com/aberral)
+    background: "#636363"
+    
+    
+  search: 
+    location: navbar
+    type: overlay
   navbar:
     right:
-      - about.qmd
+      - href: index.qmd
+        text: Home
+      - href: publications/publications.qmd
+        text: Publications
+      - href: posts/post.qmd
+        text: Posts
+      - href: galleries/index.qmd
+        text: Gallery
+      - href: https://docs.google.com/document/d/1lWbR0GjCixnwgHAU_5zSLNWRLpK-WVhGcEd7lP8xpnI/edit?usp=sharing
+        text: Resume
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/aberral
+      - icon: linkedin
+        href: https://www.linkedin.com/in/aberralgonzalez/
+      - icon: envelope-fill
+        href: mailto:///aberralgonzalez@gmail.com
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: minty
+      dark: cyborg
     css: styles.css
+    code-link: true
+    code-fold: show
+    # code-tools: true
+    code-block-bg: "#FCF6F5"
+    code-block-border-left: "#2BAE66"
 
 editor: visual
 

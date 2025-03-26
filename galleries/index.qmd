@@ -1,0 +1,134 @@
+---
+title: ""
+engine: knitr
+filters:
+  - lightbox
+  - masonry
+lightbox: auto
+include-in-header: 
+  - text: |
+      <style>
+        .grid-item {
+          width: 160px;
+          height: 120px;
+          float: center;
+          background: #ffffff;
+          border: 2px solid #ffffff;
+          border-color: hsla(0, 0%, 100%, 0.5);
+          border-radius: 5px;
+        }
+        figcaption {
+          display: none; // removes caption but keeps alt text
+          font-size: 8px;
+        }
+        .quarto-figure {
+          margin-bottom: 0px; // removes spacing under images
+        }
+        .grid-item--width2 { width: 320px; }
+        .grid-item--width3 { width: 480px; }
+        .grid-item--width4 { width: 640px; }
+
+        .grid-item--height2 { height: 200px; }
+        .grid-item--height3 { height: 260px; }
+        .grid-item--height4 { height: 360px; }
+      </style>
+---
+
+<!-- https://github.com/quarto-ext/lightbox?tab=readme-ov-file -->
+<!-- https://www.cynthiahqy.com/posts/masonry-gallery/ -->
+<!-- https://github.com/cynthiahqy/digital-garden -->
+
+The images below show some of the results of my daily basis work. This process includes data exploration, pattern identification, network analysis or prediction, informed decision analysis and functional exploration of the results.
+
+
+:::::{.column-body-outset}
+:::: {.grid data-masonry='{ "itemSelector": ".grid-item", "gutter": 0 }'}
+::: {.grid-item .grid-item--height2}
+![Chemical structure of Actinomycin-D.](images/actinomycin.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Barplot of gene expression and drug activity for a pair of gene and drug (EGFR & Ibrutinib).](images/barplot.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Beta values of Cox regression for survival analysis.](images/betas.png){group='gallery'}
+:::
+::: {.grid-item}
+![Chemical structuras of three drugs with max common substructure in blue.](images/bini-cobi-selu.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Boxplot of CBLL1 expression across different colorectal cancer subtypes.](images/boxplot.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Signature expression of each cancer molecular subtype (CMS) for colorectal samples.](images/cmscaller.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Correlation plot of different variables for dog knee surgery.](images/corrplot.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Expression density of normal vs tumor tissue expresion.](images/cplot.png){group='gallery'}
+:::
+::: {.grid-item}
+![Distribution of similarity coefficients for drug databases.](images/densities.png){group='gallery'}
+:::
+::: {.grid-item}
+![General drug activity across NCI-60 cell line.](images/drug_activity.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Differential expression for ESR1 gene to assign risk groups in survival analysis.](images/expr.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Go enrichment for protein interaction across a pathway.](images/GO_enrichment-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Heatmap for different fibroblast conditions.](images/heatmap-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Correlation of gene-drug pairs across cell line tissues with no hierarchical clustering.](images/heatmap-no-clus.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Inference of hen genes (blue labels) to human gen network (red).](images/hen-human-network2.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Kaplan-Meier curves from survival analysis for high vs low risk patients.](images/km.png){group='gallery'}
+:::
+::: {.grid-item}
+![Cluster of FDA drugs with high structural correlation.](images/mini-heatmap.png){group='gallery'}
+:::
+::: {.grid-item}
+![Gene-drug interaction bipartite network.](images/negative-network.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Gene-gene interaction network with master regulators in red.](images/network-fc-gt-1-scc-gt-05.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Optimal log-rank statistic p-value threshold estimation for splitting patients into high and low risk during survival analysis.](images/pval-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Selection of gene markers based on error rate for different iterations.](images/res2_nor_quarter_20_errorNumGenes-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Total number of genes explored during each iteration for consesus molecular subtypes assignation.](images/res2_nor_quarter_20_errorNumGenes-3.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![CMS subtenwork of integrated genes.](images/res2_nor_quarter_20_network_top100Genes-2.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Ordered risk patients with splitting threshold calculated based on log-rank p-value.](images/risk-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Circos plot of correlation between different assignation groups.](images/Rplot03-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Scatterplot of gene expression and drug activity across multiple cell lines.](images/scatterplot.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Drug clustering based on chemical structure.](images/SuppFigS1_FDA-cluster-dendrogram-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--width2 .grid-item--height2}
+![Tanglegram to compare similar clusters using different structural similarity coefficients.](images/tanglegram-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![Circosplot on expression across different groups with variables differences.](images/unnamed-chunk-3-1.png){group='gallery'}
+:::
+::::
+:::::

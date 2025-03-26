@@ -1,0 +1,101 @@
+<p><h1><b>Publications</b></h1></p>
+<details open>
+<summary>📅 <b>2025</b></summary>
+
+<p>
+  ### **Novel Assignment of Gene Markers to Hematological and Immune Cells Based on Single-Cell Transcriptomics**  
+  **Authors:** De La Rosa, Enrique; Alonso-Moreda, Natalia; Berral-González, Alberto; Sánchez-Luis, Elena; González-Velasco, Oscar; Sánchez-Santos, José Manuel; De Las Rivas, Javier.<br> 
+  **Journal:** *International Journal of Molecular Sciences*, Vol. 26, Núm. 2, p. 805.  
+</p>
+
+</details>
+<details>
+<summary>📅 <b>2024</b></summary>
+
+<p>
+  ### **Stratification of colorectal patients based on survival analysis shows the value of consensus molecular subtypes and reveals the CBLL1 gene as a biomarker of CMS2 tumours**  
+  **Authors:** Alfonsín, Gloria; Berral-González, Alberto; Rodríguez-Alonso, Andrea; Quiroga, Macarena; De Las Rivas, Javier; Figueroa, Angélica.  
+  **Journal:** *International Journal of Molecular Sciences*, Vol. 25, Núm. 3, p. 1919.  
+</p>
+
+<p>
+  ### **RAS-p110α signalling in macrophages is required for effective inflammatory response and resolution of inflammation**  
+  **Authors:** Rosell, Alejandro; Krygowska, Agata A.; Pérez, Marta Alcón; Voisin, Mathieu-Benoit; de Paz, Juan; Sanz-Fraile, Héctor; Rajeeve, Vinothini; Berral-González, Alberto; Cuesta, Cristina; Swinyard, Ottilie, et al.  
+  **Journal:** *eLife*, Vol. 13.  
+</p>
+
+<p>
+  ### **Cross-species regulatory network analysis identifies FOXO1 as a driver of ovarian follicular recruitment**  
+  **Authors:** Kramer, Ashley E.; Berral-González, Alberto; Ellwood, Kathryn M.; Ding, Shanshan; De Las Rivas, Javier; Dutta, Aditya.  
+  **Journal:** *Scientific Reports*, Vol. 14, Núm. 1, p. 30787.  
+</p>
+
+</details>
+<details>
+<summary>📅 <b>2023</b></summary>
+
+<p>
+  ### **Identification of a gene expression signature associated with breast cancer survival and risk that improves clinical genomic platforms**  
+  **Authors:** Bueno-Fortes, Santiago; Berral-González, Alberto; Sánchez-Santos, José Manuel; Martin-Merino, Manuel; De Las Rivas, Javier.  
+  **Journal:** *Bioinformatics Advances*, Vol. 3, Núm. 1, p. vbad037.  
+</p>
+<p>
+  ### **Comparative analysis of cell mixtures deconvolution and gene signatures generated for blood, immune and cancer cells**  
+  **Authors:** Alonso-Moreda, Natalia; Berral-González, Alberto; De La Rosa, Enrique; González-Velasco, Oscar; Sánchez-Santos, José Manuel; De Las Rivas, Javier.  
+  **Journal:** *International Journal of Molecular Sciences*, Vol. 24, Núm. 13, p. 10765.  
+</p>
+<p>
+  ### **RAS-PI3K signaling: a master regulator of CAF phenotype to promote lung tumor progression**
+  **Authors:** Rosell, Alejandro; Cuesta, Cristina; Berral-González, Alberto; Martínez, Belén; Hynds, Robert E.; Swanton, Charles; De Las Rivas, Javier; Castellano, Esther.  
+</p>
+<p>
+  ### **RAS signalling beyond cancer cells: controlling the physicochemical properties of the extracellular matrix to impact tumour progression**  
+  **Authors:** Cuesta, Cristina; Rosell, Alejandro; Berral-González, Alberto; Martínez, Belén; Hynds, Robert E.; Swanton, Charles; De Las Rivas, Javier; Castellano, Esther.  
+</p>
+</details>
+<details>
+<summary>📅 <b>2022</b></summary>
+
+<p>
+  ### **Expression profiles of HCT116 colorectal cancer cells and HCT116-derived CDKN1A (p21) knockout (ko) cells [Dataset]**  
+  **Authors:** Bueno-Fortes, Santiago; Muenzner, Julienne K.; Berral-González, Alberto; Hampel, Chuanpit; Lindner, Pablo; Berninger, Alexandra; Huebner, Kerstin; Kunze, Philipp; Bäuerle, Tobias; Erlenbach-Wuensch, Katharina, et al.  
+  **Publicado en:** GEO-Gene Expression Omnibus.  
+</p>
+</details>
+<details>
+<summary>📅 <b>2021</b></summary>
+
+<p>
+  ### **Cancer-associated fibroblast-derived gene signatures determine prognosis in colon cancer patients**  
+  **Authors:** Herrera, Mercedes; Berral-González, Alberto; López-Cade, Igor; Galindo-Pumariño, Cristina; Bueno-Fortes, Santiago; Martín-Merino, Manuel; Carrato, Alfredo; Ocaña, Alberto; De La Pinta, Carolina; López-Alfonso, Ana, et al.  
+  **Journal:** *Molecular Cancer*, Vol. 20, Núm. 1, p. 73.  
+</p>
+<p>
+  ### **Bipartite networks of cancer genes associated with specific drugs using pharmacogenomics**  
+  **Authors:** Alberto Berral-González; Monica M. Arroyo; Diego Alonso-Lopez; Santiago Bueno-Fortes; Javier De Las Rivas.  
+  **Journal:** *F1000 Research*.  
+</p>
+<p>
+  ### **A gene signature derived from the loss of CDKN1A (p21) is associated with CMS4 colorectal cancer**  
+  **Authors:** Bueno-Fortes, Santiago; Muenzner, Julienne K.; Berral-González, Alberto; Hampel, Chuanpit; Lindner, Pablo; Berninger, Alexandra; Huebner, Kerstin; Kunze, Philipp; Bäuerle, Tobias; Erlenbach-Wuensch, Katharina, et al.  
+  **Journal:** *Cancers*, Vol. 14, Núm. 1, p. 136.  
+</p>
+</details>
+<details>
+<summary>📅 <b>2020</b></summary>
+
+<p>
+  ### **Mining drug-target associations in cancer: analysis of gene expression and drug activity correlations**  
+  **Authors:** Arroyo, Monica M.; Berral-González, Alberto; Bueno-Fortes, Santiago; Alonso-López, Diego; De Las Rivas, Javier.  
+  **Journal:** *Biomolecules*, Vol. 10, Núm. 5, p. 667.  
+</p>
+</details>
+<details>
+<summary>📅 <b>2019</b></summary>
+
+<p>
+  ### **OMICfpp: a fuzzy approach for paired RNA-Seq counts**  
+  **Authors:** Berral-González, Alberto; Riffo-Campos, Angela L.; Ayala, Guillermo.  
+  **Journal:** *BMC Genomics*, Vol. 20, p. 1-20.  
+</p>
+</details>

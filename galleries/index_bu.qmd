@@ -1,0 +1,161 @@
+---
+title: ""
+lightbox: true
+engine: knitr
+filters:
+  - masonry
+include-in-header: 
+  - text: |
+      <style>
+        .grid-item {
+          width: 160px;
+          height: 120px;
+          float: left;
+          background: #ffffff;
+          border: 2px solid #333;
+          border-color: hsla(0, 0%, 0%, 0.5);
+          border-radius: 5px;
+        }
+        figcaption {
+          display: none; // removes caption but keeps alt text
+          font-size: 8px;
+        }
+        .quarto-figure {
+          margin-bottom: 0px; // removes spacing under images
+        }
+        .grid-item--width2 { width: 320px; }
+        .grid-item--width3 { width: 480px; }
+        .grid-item--width4 { width: 640px; }
+
+        .grid-item--height2 { height: 200px; }
+        .grid-item--height3 { height: 260px; }
+        .grid-item--height4 { height: 360px; }
+      </style>
+---
+
+<!-- https://github.com/quarto-ext/lightbox?tab=readme-ov-file -->
+<!-- https://www.cynthiahqy.com/posts/masonry-gallery/ -->
+<!-- https://github.com/cynthiahqy/digital-garden -->
+
+The below images show some of the results created along my daily basis. This process includes data exploration, pattern identification, network analysis or prediction, informed decision analysis and functional exploration of the results.
+
+![Estructura de actinomicina D](images/actinomycin.png){.lightbox}
+
+```{r}
+#| output: asis
+#| echo: false
+#| message: false
+img_meta <- readr::read_delim("image-meta.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE, show_col_types = FALSE)
+img_files <- img_meta$img_path
+img_captions <- img_meta$alt_text
+cat(
+  glue::glue("
+    :::{{.grid-item}}
+    ![{img_captions}](images/{img_files}){{group='sketches'}}
+    :::"),
+  sep = "\n"
+)
+```
+
+
+
+
+
+:::::{.column-body-outset}
+:::: {.grid data-masonry='{ "itemSelector": ".grid-item", "gutter": 0 }'}
+::: {.grid-item .grid-item--height2}
+![ah](images/actinomycin.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/barplot.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/betas.png){group='gallery'}
+:::
+::: {.grid-item}
+![caption](images/bini-cobi-selu.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/boxplot.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/cmscaller.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/corrplot.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/cplot.png){group='gallery'}
+:::
+::: {.grid-item}
+![caption](images/densities.png){group='gallery'}
+:::
+::: {.grid-item}
+![caption](images/drug_activity.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/expr.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/GO_enrichment-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/heatmap-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/heatmap-no-clus.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/hen-human-network2.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/km.png){group='gallery'}
+:::
+::: {.grid-item}
+![caption](images/mini-heatmap.png){group='gallery'}
+:::
+::: {.grid-item}
+![caption](images/negative-network.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/network-fc-gt-1-scc-gt-05.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/pval-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/res2_nor_quarter_20_errorNumGenes-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/res2_nor_quarter_20_errorNumGenes-3.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/res2_nor_quarter_20_network_top100Genes-2.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/res2_nor_quarter_20_network_top100Genes-8.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/risk-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/Rplot03-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/scatterplot.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/SuppFigS1_FDA-cluster-dendrogram-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--width2}
+![caption](images/tanglegram-1.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/tucatinib-neratinib-afatinib-dacomitinib.png){group='gallery'}
+:::
+::: {.grid-item .grid-item--height2}
+![caption](images/unnamed-chunk-3-1.png){group='gallery'}
+:::
+::::
+:::::
+
