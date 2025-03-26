@@ -1,10 +1,5 @@
 project:
   type: website
-  render:
-    - index.qmd
-    - publications/publications.qmd
-    - posts/post.qmd
-    - galleries/index.qmd
   output-dir: docs
     
 website:
