@@ -5,6 +5,7 @@ project:
     - publications/publications.qmd
     - posts/post.qmd
     - galleries/index.qmd
+  output-dir: docs
     
 website:
   title: "ABerral"
