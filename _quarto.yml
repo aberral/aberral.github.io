@@ -20,7 +20,7 @@ website:
     type: overlay
   navbar:
     right:
-      - href: index.qmd
+      - href: https://aberral.github.io/
         text: Home
       - href: publications/publications.qmd
         text: Publications
