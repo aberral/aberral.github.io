@@ -11,7 +11,7 @@ website:
     left: |
       Made with [Quarto](https://quarto.org/)
     right: |
-      [Github Code Repo](https://github.com/aberral)
+      © Copyright 2025 Alberto Berral-González. Except where otherwise noted, all text and images licensed CC-BY-NC 4.0.
     background: "#636363"
     
     
@@ -28,7 +28,7 @@ website:
         text: Posts
       - href: galleries/index.qmd
         text: Gallery
-      - href: https://docs.google.com/document/d/1lWbR0GjCixnwgHAU_5zSLNWRLpK-WVhGcEd7lP8xpnI/edit?usp=sharing
+      - href: resume/resume.qmd
         text: Resume
       - icon: github
         href: https://github.com/aberral

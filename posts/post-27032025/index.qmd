@@ -1,0 +1,190 @@
+---
+title: "Steps to create a website like this"
+author: "Alberto Berral-González"
+description: "If you want to easily create a website like this, using **GitHub Pages** and **Quarto** from **RStudio**, is a wonderful option. In this post I'll show you how I did it."
+date: "2025-03-28"
+categories: [news, code, web]
+image: "thumbnail.jpg"
+toc: true
+toc-location: left
+code-fold: true
+---
+
+<p style="text-align: center;">
+
+<img src="thumbnail.webp" width="100%"/> <br /> <em>Free image obtained from Freepik</em>
+
+</p>
+
+## Summary
+
+If you want to easily create a website like this, using **GitHub Pages** and **Quarto** from **RStudio**, is a wonderful option. In this post I'll show you how I did it. You don't need to be an expert in programming, just willing to experiment with code. I'll explain the basic steps, from installation to publication, and provide some reflections of the process. Let's go!
+
+Recently, I attended a portfolio course within the [Momentum program](https://momentum.csic.es/). For the final evaluation of the course I had to create a portfolio for myself that I will be maintaining for the duration of the project. Since I am somewhat familiar with coding, I decided to use **GitHub Pages** and **Quarto** language within **RStudio** as the best option. In this post I want to share my experience with you and the key steps that I followed (plus some tips) to make the process as clear as possible.
+
+## Pre-requisites
+
+Before starting, for this portfolio recipe we will need:
+
+* A GitHub account.
+
+* R and RStudio installed.
+
+``` 💭 In case you are not familiar with git line command, you can upload all the changes via drag and drop to the github repo. I'm somewhat familiar with git (even if you don't use it too often) so I will be using this. Why git? It's the easiest way to make changes and to control what has changed from a version to another. Even if it has a steep learning curve, it's an advantage in the future to maintain the site without making a mess of it. As for **Quarto** (which is Markdown based) and **RStudio**, are tools that I use on my daily basis for work, so the choice was pretty obvious for me.```
+
+## Setting Up the Project in RStudio
+Follow the next steps:
+
+* Open RStudio and create a new project (File > New project)
+
+* Create a **new folder** to store the project or select an **existing one**.
+
+* Select **Quarto Website** as the project type and click **Create Project**.
+
+
+```💭 I strongly recommend using projects within **Rstudio**, in my opinion it's the optimal way to have all your files related to a project inside a folder without mixing files from different projects.```
+
+
+A **Quarto website** is composed of two main files: `_quarto.yml` & `index.qmd`
+
+The **`_quarto.yml`** file stores the configuration of the web: the layout, the theme, the format of the web,...etc. And the **`index.qmd`** is where the information displayed on the website is contained (text, images,...etc.). Here are my two files:
+
+::: {.panel-tabset}
+## `_quarto.yml`
+
+```{.yml}
+project:
+  type: website
+  output-dir: docs
+    
+website:
+  title: "ABerral"
+  favicon: "images/favicon.png"
+  page-footer:
+    center: |
+      [Contact Me](mailto:aberralgonzalez@gmail.com)
+    left: |
+      Made with [Quarto](https://quarto.org/)
+    right: |
+      [Github Code Repo](https://github.com/aberral)
+    background: "#636363"
+    
+    
+  search: 
+    location: navbar
+    type: overlay
+  navbar:
+    right:
+      - href: https://aberral.github.io/
+        text: Home
+      - href: publications/publications.qmd
+        text: Publications
+      - href: posts/post.qmd
+        text: Posts
+      - href: galleries/index.qmd
+        text: Gallery
+      - href: https://docs.google.com/document/d/1lWbR0GjCixnwgHAU_5zSLNWRLpK-WVhGcEd7lP8xpnI/edit?usp=sharing
+        text: Resume
+      - icon: github
+        href: https://github.com/aberral
+      - icon: linkedin
+        href: https://www.linkedin.com/in/aberralgonzalez/
+      - icon: envelope-fill
+        href: mailto:///aberralgonzalez@gmail.com
+format:
+  html:
+    theme: 
+      light: minty
+      dark: cyborg
+    css: styles.css
+    code-link: true
+    code-fold: show
+    # code-tools: true
+    code-block-bg: "#FCF6F5"
+    code-block-border-left: "#2BAE66"
+
+editor: visual
+
+
+```
+
+## `index.qmd`
+
+```{.md}
+---
+title: "Alberto Berral-Gónzalez"
+subtitle: "Bioinformatician, Computational Biologist, and computer scientist in training"
+image: images/aberral_2025.png
+about:
+  template: jolla
+  image-width: 15em
+  image-shape: round
+---
+
+[👋 Hi, I'm Alberto!]{.dim-text} [[{{< iconify la orcid inline=true title="ORCID">}}](https://orcid.org/0000-0001-8388-6051)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}
+
+[[{{< iconify ph house inline=true title="Home">}}](index.qmd)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph github-logo inline=true title="Github">}}](https://github.com/aberral/)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph graduation-cap inline=true title="Google Scholar">}}](https://scholar.google.es/citations?user=KihY6fsAAAAJ&hl=en)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify la researchgate inline=true title="ResearchGate">}}](https://www.researchgate.net/profile/Alberto-Berral-Gonzalez)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph linkedin-logo inline=true title="Linkedin">}}](https://www.linkedin.com/in/aberralgonzalez/)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph envelope-open inline=true title="Mail me!">}}](mailto:///aberralgonzalez@gmail.com)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}
+
+I am a Ph.D. at the **Bioinformatics and Functional Genomics Research Group** of the Institute of Molecular and Cell Biology of Cancer ([IBMCC](https://www.cicancer.org/)). I have an extensive background working with biomedical datasets across multiple international research projects.
+
+## I'm constantly learning new skills, and in this new postdoctoral phase my intention is to delve more into artificial intelligence and machine learning techniques. I love constantly learning new things and working on new and interesting projects! Feel free to reach out! :)
+```
+
+:::
+
+Configure the main files like **index.qmd** (homepage) and create another folder with more **.qmd** files for additional sections in your website (don't forget to include them in the yaml file). Also there are multiple [templates](https://quarto.org/docs/gallery/) in the web from where you can choose and edit to suit your personal palate.
+
+``` 💭  This step was easy as I had already a scheme for what I wanted my web to be, and in retrospect if I had not had a clear idea I think that with the templates on the web I could have solved the issue effectively. Anyway, I do recommend to anyone following this post that starting with a more or less clear structure makes it much easier to organise all the information.```
+
+## Connecting the Project with GitHub 
+
+Here's the hard part of this process. To link the project to Github for version control and publishing it. The first step is to go to GitHub and create a new repository. I recommend that if you are not familiar with git or github, just upload the project using the web. But as I like to mess around, I'll use Rstudio terminal. In case you do as I do, you will need a key to connect your github account to your computer to upload the changes directly (here you have a nice [tutorial](https://anderfernandez.com/en/blog/how-to-link-and-use-git-with-rstudio/))
+
+As we are in RStudio, the work is somewhat easier. Just run the following code:
+```{.bash}
+# Just to be safe
+git remote -v 
+git remote rm origin
+# We add the repository link and github user without "" in my case aberral.github.io (to use github pages) and aberral which is my username
+git remote add origin git@github.com:"user"/"repo_name".git
+git config remote.origin.url git@github.com:"user"/"repo_name".git
+# We add a mail to identify the commits
+git config --global user.email aberralgonzalez@gmail.com
+git config --global user.name aberral
+git push --set-upstream origin Main
+```
+
+```💭 This part is somewhat tricky and even today I am still learning git. This part might be a little to steep if you have no idea of this method whatsoever. But, as I said before you can just drag and drop or upload the files to the web. The end objective is to publish it and maintian a version control over the portfolio. Simplifying this task might be better in the long run tho.```
+
+## Publishing the Website on GitHub Pages
+
+So in order to publish our website, we have to first render it and upload the renderized version to github. To renderize the website, we run in Rstudio terminal:
+
+```{.bash}
+quarto render
+```
+
+This will create the renderized page. In my case, as I have decided to renderize to html (from the **`_quarto.yml`** file):
+```{.yml}
+project:
+  type: website
+  output-dir: docs
+```
+The docs folder will contain my finished website. 
+
+Then we enable GitHub Pages in the repository settings, and select from which branch and folder the site is to be taken. Make sure the correct branch is selected (usually main or gh-pages). And also select the folder (**docs** in my case) where the web is supposed to be.
+
+Your website will be available at **https://yourusername.github.io/yourrepository/.**
+
+```💭 This part was somewhat easy, as it is only change two or more options in the repository settings.```
+
+## Customization and Improvements
+
+Once published, you can customize or change your website (as I'm doing in this same moment writing this post after publishing the web first). You can also customize it with Quarto themes, modify the CSS, and add more sections as you progress through your journey.
+
+```💭 Final reflection: for me the easy part was the languagues which I'm already familiar with (Markdown, HTML and git). So that part of the web creation was not so complicated, just a work of fine tunning what I wanted to do. The hard part was learning the new structure of the quarto language that has some intricacies when you want to do something more complex. Anyhow, this is an accessible process to people without prior knowledge, as there are multiple templates that facilitates the workload. In my case, familiarise myself with the language along this journey is a work in progress.```
+
+
+## Conclusion
+
+Creating a website with **GitHub Pages**, **Quarto**, and **RStudio** is easier than it would seem for non-coding people. By following these steps and reflecting on your learning, you can enhance your understanding and adapt better to new projects. Give it a try and share your experience!

@@ -7,27 +7,24 @@ about:
   image-width: 15em
   image-shape: round
 ---
+
+```{=html}
 <!-- DOCS
 https://deepshamenghani.quarto.pub/portfolio-with-quarto-workshop/#/toggle-between-dark-and-light-theme
 -->
+```
+[👋 Hi, I'm Alberto!]{.dim-text} [[{{< iconify la orcid inline=true title="ORCID">}}](https://orcid.org/0000-0001-8388-6051)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}
 
-[[👋 Hi, I'm Alberto!]{.dim-text} [[{{< iconify la orcid inline=true title="ORCID">}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://orcid.org/0000-0001-8388-6051)]{style="font-size: 1.5rem; color: var(--dim-text)!important; padding-bottom: 0pt; font-weight: 400;"}
+[[{{< iconify ph house inline=true title="Home">}}](index.qmd)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph github-logo inline=true title="Github">}}](https://github.com/aberral/)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph graduation-cap inline=true title="Google Scholar">}}](https://scholar.google.es/citations?user=KihY6fsAAAAJ&hl=en)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify la researchgate inline=true title="ResearchGate">}}](https://www.researchgate.net/profile/Alberto-Berral-Gonzalez)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph linkedin-logo inline=true title="Linkedin">}}](https://www.linkedin.com/in/aberralgonzalez/)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph envelope-open inline=true title="Mail me!">}}](mailto:///aberralgonzalez@gmail.com)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}
 
-[[{{< iconify ph house inline=true title="Home">}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](index.qmd)
-[[{{< iconify ph github-logo inline=true title="Github">}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://github.com/aberral/)
-[[{{< iconify ph graduation-cap inline=true title="Google Scholar">}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://scholar.google.es/citations?user=KihY6fsAAAAJ&hl=en)
-[[{{< iconify la researchgate inline=true title="ResearchGate">}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://www.researchgate.net/profile/Alberto-Berral-Gonzalez)
-[[{{< iconify ph linkedin-logo inline=true title="Linkedin">}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://www.linkedin.com/in/aberralgonzalez/)
-[[{{< iconify ph envelope-open inline=true title="Mail me!">}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](mailto:///aberralgonzalez@gmail.com)
-
+```{=html}
 <!-- Commented icons
 [[{{< iconify ph twitter-logo inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://www.twitter.com/saforem2)
 [[{{< iconify ph spotify-logo inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://open.spotify.com/user/saforem2)
 [[{{< iconify ph lastfm-logo inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://www.last.fm/user/saforem2)
 [[{{< iconify ph calendar-plus inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://outlook.office.com/bookwithme/user/450ab3e5d58a4e7f84c802cc4c7205e6@anl.gov?anonymous&ep=plink)
 -->
-
+```
 I am a Ph.D. at the **Bioinformatics and Functional Genomics Research Group** of the Institute of Molecular and Cell Biology of Cancer ([IBMCC](https://www.cicancer.org/)). I have an extensive background working with biomedical datasets across multiple international research projects.
 
 I'm constantly learning new skills, and in this new postdoctoral phase my intention is to delve more into artificial intelligence and machine learning techniques. I love constantly learning new things and working on new and interesting projects! Feel free to reach out! :)
----

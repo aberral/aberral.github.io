@@ -40,14 +40,17 @@ include-in-header:
 
 The images below show some of the results of my daily basis work. This process includes data exploration, pattern identification, network analysis or prediction, informed decision analysis and functional exploration of the results.
 
-
 :::::{.column-body-outset}
 :::: {.grid data-masonry='{ "itemSelector": ".grid-item", "gutter": 0 }'}
 ::: {.grid-item .grid-item--height2}
+<div style="text-align: center;">
 ![Chemical structure of Actinomycin-D.](images/actinomycin.png){group='gallery'}
+</div>
 :::
 ::: {.grid-item .grid-item--height2}
+<div style="text-align: center;">
 ![Barplot of gene expression and drug activity for a pair of gene and drug (EGFR & Ibrutinib).](images/barplot.png){group='gallery'}
+</div>
 :::
 ::: {.grid-item .grid-item--height2}
 ![Beta values of Cox regression for survival analysis.](images/betas.png){group='gallery'}
