@@ -1,7 +1,7 @@
 ---
 title: "Steps to create a website like this"
 author: "Alberto Berral-González"
-description: "If you want to easily create a website like this, using **GitHub Pages** and **Quarto** from **RStudio**, is a wonderful option. In this post I'll show you how I did it."
+description: "If you want to easily create a website like this, using **GitHub Pages** and **Quarto** from **RStudio** is a wonderful option. In this post I'll show you how I did it."
 date: "2025-03-28"
 categories: [news, code, web]
 image: "thumbnail.jpg"
@@ -18,7 +18,7 @@ code-fold: true
 
 ## Summary
 
-If you want to easily create a website like this, using **GitHub Pages** and **Quarto** from **RStudio**, is a wonderful option. In this post I'll show you how I did it. You don't need to be an expert in programming, just willing to experiment with code. I'll explain the basic steps, from installation to publication, and provide some reflections of the process. Let's go!
+If you want to easily create a website like this, using **GitHub Pages** and **Quarto** from **RStudio** is a wonderful option. In this post I'll show you how I did it. You don't need to be an expert in programming, just willing to experiment with code. I'll explain the basic steps, from installation to publication, and provide some reflections of the process. Let's go!
 
 Recently, I attended a portfolio course within the [Momentum program](https://momentum.csic.es/). For the final evaluation of the course I had to create a portfolio for myself that I will be maintaining for the duration of the project. Since I am somewhat familiar with coding, I decided to use **GitHub Pages** and **Quarto** language within **RStudio** as the best option. In this post I want to share my experience with you and the key steps that I followed (plus some tips) to make the process as clear as possible.
 
