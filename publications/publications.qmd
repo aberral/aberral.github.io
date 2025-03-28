@@ -1,3 +1,6 @@
+---
+title: "Publications"
+---
 <p><h1><b>Publications</b></h1></p>
 <details open>
 <summary>📅 <b>2025</b></summary>
