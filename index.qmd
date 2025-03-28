@@ -13,7 +13,8 @@ about:
 https://deepshamenghani.quarto.pub/portfolio-with-quarto-workshop/#/toggle-between-dark-and-light-theme
 -->
 ```
-[<h1>👋 Hi, I'm Alberto!</h1>]{.dim-text} [[{{< iconify la orcid inline=true title="ORCID">}}](https://orcid.org/0000-0001-8388-6051)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}
+
+[👋 Hi, I'm Alberto!]{.dim-text} [[{{< iconify la orcid inline=true title="ORCID">}}](https://orcid.org/0000-0001-8388-6051)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}
 
 [[{{< iconify ph house inline=true title="Home">}}](index.qmd)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph github-logo inline=true title="Github">}}](https://github.com/aberral/)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph graduation-cap inline=true title="Google Scholar">}}](https://scholar.google.es/citations?user=KihY6fsAAAAJ&hl=en)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify la researchgate inline=true title="ResearchGate">}}](https://www.researchgate.net/profile/Alberto-Berral-Gonzalez)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph linkedin-logo inline=true title="Linkedin">}}](https://www.linkedin.com/in/aberralgonzalez/)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"} [[{{< iconify ph envelope-open inline=true title="Mail me!">}}](mailto:///aberralgonzalez@gmail.com)]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}
 
