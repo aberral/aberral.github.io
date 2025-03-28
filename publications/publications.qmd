@@ -59,7 +59,7 @@
 <p>
   ### [**Expression profiles of HCT116 colorectal cancer cells and HCT116-derived CDKN1A (p21) knockout (ko) cells (Dataset)**](http://hdl.handle.net/10261/331234)  
   **Authors:** Bueno-Fortes, Santiago; Muenzner, Julienne K.; Berral-González, Alberto; Hampel, Chuanpit; Lindner, Pablo; Berninger, Alexandra; Huebner, Kerstin; Kunze, Philipp; Bäuerle, Tobias; Erlenbach-Wuensch, Katharina, et al.  
-  **Publicado en:** GEO-Gene Expression Omnibus.  
+  **Published:** GEO-Gene Expression Omnibus.  
 </p>
 </details>
 <details>
