@@ -6,6 +6,18 @@ title: "Publications"
 <summary>📅 <b>2025</b></summary>
 
 <p>
+  ### [**Pharmacogenomic Drug–Target Network Analysis Reveals Similarity Profiles Among FDA–Approved Cancer Drugs**]( https://doi.org/10.3390/pharmaceutics17111421)
+  **Authors:** Alberto Berral-González, Monica M Arroyo, Diego Alonso-López, María Jesús Rivas-López, José Manuel Sánchez-Santos, Javier De Las Rivas<br> 
+  **Journal:** *Pharmaceutics*, Vol. 17, Núm. 11, p. 1421.  
+</p>
+
+<p>
+  ### [**RAS–p110α signalling in macrophages is required for effective inflammatory response and resolution of inflammation**]( https://doi.org/10.7554/eLife.94590.4)
+  **Authors:** Alejandro Rosell, Agata Adelajda Krygowska, Marta Alcón Pérez, Cristina Cuesta, Mathieu-Benoit Voisin, Juan de Paz, Héctor Sanz-Fraile, Vinothini Rajeeve, Ana Carreras-González, Alberto Berral-González, Ottilie Swinyard, Enrique Gabandé-Rodríguez, Julian Downward, Jordi Alcaraz, Juan Anguita, Carmen García-Macías, Javier De Las Rivas, Pedro R Cutillas, Esther Castellano Sanchez<br> 
+  **Journal:** *eLife*, 13:RP94590.  
+</p>
+
+<p>
   ### [**Novel Assignment of Gene Markers to Hematological and Immune Cells Based on Single-Cell Transcriptomics**](https://doi.org/10.3390/ijms26020805)
   **Authors:** De La Rosa, Enrique; Alonso-Moreda, Natalia; Berral-González, Alberto; Sánchez-Luis, Elena; González-Velasco, Oscar; Sánchez-Santos, José Manuel; De Las Rivas, Javier.<br> 
   **Journal:** *International Journal of Molecular Sciences*, Vol. 26, Núm. 2, p. 805.  
